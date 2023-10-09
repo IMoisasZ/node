@@ -1,11 +1,3 @@
-// import { createServer } from 'http'
-
-// const server = createServer((request, response) => {
-// 	response.write('I need talking in english')
-// 	return response.end()
-// })
-
-// server.listen(3333)
 import fastify from 'fastify'
 // import { DatabaseMemory } from './database-memory.js'
 import { DatabasePostgres } from './database-postgres.js'
